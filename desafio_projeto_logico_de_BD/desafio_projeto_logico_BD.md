@@ -41,3 +41,43 @@ Algumas perguntas sugeridas para orientar a criação das queries são:
 * Algum vendedor também é fornecedor?
 * Qual a relação de produtos, fornecedores e estoques?
 * Qual a relação entre os nomes dos fornecedores e os nomes dos produtos?
+
+### **Desafio: Construa um Projeto Lógico de banco de Dados do Zero**
+
+De uma outra forma, agora o desafio proposto é montar um modelo relacional de um banco de dados do zero, para uma oficina. O desafio exige a criação do esquema lógico, o script de implementação e a realização de consultas SQL complexas.
+
+---
+
+### **Etapas do Projeto**
+
+1.  **Esquema Lógico**:
+    * Desenvolver o esquema lógico do banco de dados relacional, utilizando como base o esquema conceitual criado em um desafio anterior.
+
+2.  **Script SQL**:
+    * Criar o script SQL completo para a implementação do esquema do banco de dados.
+    * Incluir a persistência de dados (inserção de registros) para possibilitar a realização de testes e consultas.
+
+3.  **Consultas SQL**:
+    * Elaborar consultas SQL complexas, indo além das recuperações simples.
+    * As consultas devem responder a perguntas específicas sobre os dados da oficina.
+
+---
+
+### **Requisitos para as Consultas**
+
+As consultas SQL precisam obrigatoriamente incluir as seguintes cláusulas:
+
+* `SELECT`: Recuperações de dados.
+* `WHERE`: Filtros de dados específicos.
+* **Atributos Derivados**: Criação de novas colunas a partir de expressões.
+* `ORDER BY`: Ordenação dos resultados.
+* `HAVING`: Filtros aplicados a grupos de dados.
+* **Junções entre Tabelas**: Combinação de dados de múltiplas tabelas para uma análise mais completa.
+
+---
+
+### **Entrega do Projeto**
+
+* O projeto final deve ser disponibilizado em um **repositório do GitHub**.
+* O arquivo **README.md** do repositório deve conter uma descrição detalhada do esquema lógico do banco de dados, fornecendo o contexto necessário para a avaliação.
+
